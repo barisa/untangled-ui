@@ -198,4 +198,11 @@
   margin-bottom: 1em;
 }
 
+.ui-part__content {
+  height: calc(100vh - var(--height-toolbar));
+  margin-top: -1em;
+  overflow: scroll;
+  padding-top: 1em;
+}
+
 /* stylelint-enable */
